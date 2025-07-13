@@ -28,7 +28,7 @@ export function MainNav(): React.JSX.Element {
         component="header"
         sx={{
           borderBottom: '1px solid var(--mui-palette-divider)',
-          backgroundColor: 'var(--mui-palette-background-paper)',
+          backgroundColor:'red',
           position: 'sticky',
           top: 0,
           zIndex: 'var(--mui-zIndex-appBar)',
@@ -70,7 +70,7 @@ export function MainNav(): React.JSX.Element {
             <Avatar
               onClick={userPopover.handleOpen}
               ref={userPopover.anchorRef}
-              src="/assets/avatar.png"
+              src="/assets/scrape.png"
               sx={{ cursor: 'pointer' }}
             />
           </Stack>
